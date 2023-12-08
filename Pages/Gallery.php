@@ -4,7 +4,7 @@
   <title>AutoCare Masters | Gallery</title>
  </head>
 <body>
-<?php include 'NavBar.html'; ?>
+<?php include 'navbar.html'; ?>
         
 
 <!-- pics -->
