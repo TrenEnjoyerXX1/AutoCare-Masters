@@ -1,0 +1,20 @@
+Index: PHP/testhash.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\n\r\n\r\n$password = 'your_password_here';\r\n\r\n// Hash the password\r\necho password_hash($password, CRYPT_SHA512);\r\n\r\n\r\n\r\n\r\n?>\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PHP/testhash.php b/PHP/testhash.php
+--- a/PHP/testhash.php	(revision 7903116359a58cc91efe4ccc89167414d6a12fcd)
++++ b/PHP/testhash.php	(date 1702052235232)
+@@ -7,6 +7,9 @@
+ // Hash the password
+ echo password_hash($password, CRYPT_SHA512);
+ 
++echo "test";
++
++
+ 
+ 
+ 
