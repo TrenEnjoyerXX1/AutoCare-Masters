@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AutoCar Masters | Gallery</title>
+  <title>AutoCare Masters | Gallery</title>
  </head>
 <body>
 
