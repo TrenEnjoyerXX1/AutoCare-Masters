@@ -10,7 +10,7 @@
 <body>
       <?php include 'navbar.html'; ?>    
     
-<!-- in this page the customer will fill the form of his request to wax his car -->
+<!-- in this page the shop will view the pending  requests of carWrap depending on the branch location  -->
  
 
 

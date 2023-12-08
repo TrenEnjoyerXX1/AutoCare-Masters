@@ -8,13 +8,20 @@
   
 </head>
 <body>
-
-    <div class="navbar navbar-expand-lg bg-body-tertiary">
       <?php include 'navbar.html'; ?>    
-    </div>
+    
+<!-- in this page the customer will fill the form of his request repair his car 
+
+ 
+
+inputs : date, Service(dropdown list) , location(dropdown list of the branches retrieved from the DataBase)
+
+submit button 
+
+-->
 
 
 
-
+    <?php include 'footer.php'; ?>
 </body>
 </html>

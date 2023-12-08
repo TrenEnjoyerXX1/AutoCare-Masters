@@ -10,7 +10,12 @@
 <body>
       <?php include 'navbar.html'; ?>    
     
-<!-- in this page the customer will fill the form of his request to wax his car -->
+<!--
+   in this page the shop will view the pending  requests of Wash depending on the branch location  
+
+the request will be showed inside a table with a confirm button()
+
+-->
  
 
 

@@ -9,12 +9,11 @@
 </head>
 <body>
 
-    <div class="navbar navbar-expand-lg bg-body-tertiary">
       <?php include 'navbar.html'; ?>    
-    </div>
+
+    <!-- in this page the customer will fill the form of his request tune his car-->
 
 
-
-
+    <?php include 'footer.php'; ?>
 </body>
 </html>

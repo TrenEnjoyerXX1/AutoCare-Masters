@@ -9,12 +9,21 @@
 </head>
 <body>
 
-    <div class="navbar navbar-expand-lg bg-body-tertiary">
       <?php include 'navbar.html'; ?>    
-    </div>
+
+<!-- 
+  
+in this page the customer will fill the form of his request to Wash his car 
+
+inputs : date, cartype(dropdown list) , location(dropdown list of the branches retrieved from the DataBase) , checkbox(Engine cleaning , detailing [additonal costs])
+
+submit button 
 
 
 
+-->
 
+
+    <?php include 'footer.php'; ?>
 </body>
 </html>

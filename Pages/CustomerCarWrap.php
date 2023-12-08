@@ -8,13 +8,12 @@
   
 </head>
 <body>
-
-    <div class="navbar navbar-expand-lg bg-body-tertiary">
       <?php include 'navbar.html'; ?>    
-    </div>
+    
+
+    <!-- in this page the customer will fill the form of his request install a car wrap -->
 
 
-
-
+    <?php include 'footer.php'; ?>
 </body>
 </html>
