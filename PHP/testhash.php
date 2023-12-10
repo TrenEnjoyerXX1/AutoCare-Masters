@@ -10,6 +10,8 @@ echo password_hash($password, CRYPT_SHA512);
 echo "test";
 
 
+echo "testing";
+
 
 
 
