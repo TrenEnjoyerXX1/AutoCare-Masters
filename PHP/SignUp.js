@@ -37,6 +37,77 @@ const isValidEmail = email =>
     return re.test(String(email).toLowerCase());
 }
 
+const checkEmailExists = (emailToCheck) =>
+{
+    const mysql = require('mysql');
+    const connection = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'autocare'
+    });
+
+    return new Promise((resolve, reject) =>
+    {
+        connection.connect((err) => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            connection.query('SELECT COUNT(*) AS count FROM customer WHERE Email = ?', emailToCheck, (error, results) => {
+                if (error)
+                {
+                    connection.end();
+                    reject(error);
+                }
+                else
+                {
+                    connection.end();
+                    const emailExists = results[0].count > 0;
+                    resolve(emailExists);
+                }
+            });
+        });
+    });
+};
+
+const checkUsernameExists = (unameToCheck) =>
+{
+    const mysql = require('mysql');
+    const connection = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'autocare'
+    });
+
+    return new Promise((resolve, reject) =>
+    {
+        connection.connect((err) =>
+        {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            connection.query('SELECT COUNT(*) AS count FROM customer WHERE UserName = ?', unameToCheck, (error, results) => {
+                if (error)
+                {
+                    connection.end();
+                    reject(error);
+                }
+                else
+                {
+                    connection.end();
+                    const unameExists = results[0].count > 0;
+                    resolve(unameExists);
+                }
+            });
+        });
+    });
+}
+
 const isValidName = name =>
 {
 
@@ -112,6 +183,10 @@ const validateInputs = () =>
     {
         setError(fname, 'length is between 2 and 20 only ');
     }
+    else if(checkUsernameExists(usernameValue))
+    {
+        setError(email, 'Username is already used by another user');
+    }
     else
     {
         setSuccess(username);
@@ -120,12 +195,16 @@ const validateInputs = () =>
 
     //email errors
     if(emailValue === '')
-        {
+    {
             setError(email, 'Email is required');
         }
     else if (!isValidEmail(emailValue))
     {
         setError(email, 'Provide a valid email address');
+    }
+    else if(checkEmailExists(emailValue))
+    {
+        setError(email, 'Email is already used by another user');
     }
     else
     {
@@ -161,3 +240,14 @@ const validateInputs = () =>
     }
 
 };
+
+
+
+
+
+
+
+
+
+
+
