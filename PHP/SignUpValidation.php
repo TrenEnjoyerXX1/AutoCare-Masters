@@ -1,5 +1,5 @@
 <?php
-//include ("DataBaseConfig.php");
+include ("DataBaseConfig.php");
 
 
 // Retrieve form data
