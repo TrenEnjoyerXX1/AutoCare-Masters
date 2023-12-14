@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="" />
+    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="s">
+      <change afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/SignIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/SignInValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignInValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/SignUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/navbar.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +24,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TrenEnjoyerXX1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="11ae15f3-ea68-4410-acc0-3c256532a1d5" />
+        <option name="url" value="https://github.com/TrenEnjoyerXX1/AutoCare-Masters.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZXBttAlu5sUq0n0CKtdCALZR09" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,10 +51,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "ShOmar's-branch",
     "last_opened_file_path": "C:/xampp/htdocs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -48,10 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1702558762961</updated>
       <workItem from="1702558763938" duration="251000" />
+      <workItem from="1702564328444" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
 </project>

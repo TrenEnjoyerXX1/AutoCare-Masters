@@ -8,6 +8,7 @@ if (isset($_POST['StaffFlag']))
     // Checkbox was checked--> Staff User
 
 
+  //  $username = mysqli_query($con,"Select * from Staff where UserName=$_POST[]");
 
 
 
@@ -16,7 +17,11 @@ if (isset($_POST['StaffFlag']))
 else
 {
     // Checkbox was not checked--> Customer
-    echo "Checkbox was not checked.";
+
+
+
+
+
 }
 
 

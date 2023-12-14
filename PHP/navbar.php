@@ -51,6 +51,11 @@
             <!-- scroll down -->
             <a class="nav-link" href="SignIn.php"  >Login</a>
          </li>
+
+            <li class="nav-item" >
+                <a class="nav-link" href="SignUp.php"  >Register</a>
+            </li>
+
         </ul>
 
         </form>
