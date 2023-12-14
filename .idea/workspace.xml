@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/SignUpValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <updated>1702558762961</updated>
       <workItem from="1702558763938" duration="251000" />
       <workItem from="1702564328444" duration="5129000" />
-      <workItem from="1702575708048" duration="14340000" />
+      <workItem from="1702575708048" duration="16424000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <option name="closed" value="true" />
@@ -116,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702591233122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SingUp javaScript">
+      <option name="closed" value="true" />
+      <created>1702591494522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702591494522</updated>
+    </task>
+    <task id="LOCAL-00005" summary="SingUp javaScript">
+      <option name="closed" value="true" />
+      <created>1702592368657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702592368657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="SingUp javaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="SingUp javaScript" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
