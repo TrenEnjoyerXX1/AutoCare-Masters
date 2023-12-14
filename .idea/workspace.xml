@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="s">
-      <change afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
+    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/SignUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/SignUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignInValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignInValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/navbar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/SignUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/SignUpValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +50,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ZXBttAlu5sUq0n0CKtdCALZR09" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,10 +63,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "ShOmar's-branch",
     "last_opened_file_path": "C:/xampp/htdocs",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -81,8 +93,18 @@
       <option name="presentableId" value="Default" />
       <updated>1702558762961</updated>
       <workItem from="1702558763938" duration="251000" />
-      <workItem from="1702564328444" duration="982000" />
+      <workItem from="1702564328444" duration="5129000" />
+      <workItem from="1702575708048" duration="8674000" />
     </task>
+    <task id="LOCAL-00001" summary="s">
+      <option name="closed" value="true" />
+      <created>1702565341152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565341152</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +113,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <option name="LAST_COMMIT_MESSAGE" value="s" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
