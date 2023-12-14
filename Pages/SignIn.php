@@ -8,33 +8,30 @@
   
 </head>
 <body>
-    <?php include 'navbar.html'; ?>    
+    <?php include 'navbar.php'; ?>
 
-  <!--  Sign in form 
+<form action="SignInValidation.php" method="post" >
 
-  username,password, remember me,
-  submit button(login)
+<table style="text-align: center" >
+
+            <tr><th> <input type="text" name="Username" placeholder="Username"> </th></tr>
+            <tr> <th>  <input type="password" name="Password" placeholder="Password"> </th></tr>
+
+                <tr> <th>Staff member? <input type="checkbox" name="StaffFlag"></th>   </tr>
+    <tr> <th>  <a href="ForgetPassword.php">ForgetPassword ?</a> </th> </tr>
+            <tr> <th>  <input type="submit" value="login"> </th> </tr>
+            </table>
+
+    <?php include 'footer.php'; ?>
+        </form>
 
 
-  after successfully logging in 
 
-  if(customer)
-  {
-    go to home page change the login button to logout button next to pfp pic located in the icons folder
-  }
+
   
-  if(Service provider)
-  {
-    go to his department report page
-  }
 
 
-  if(Admin)
-  {
-      admin page
-  }
 
--->
 
 
     <?php include 'footer.php'; ?>

@@ -8,7 +8,7 @@
   
 </head>
 <body>
-      <?php include 'navbar.html'; ?>    
+      <?php include 'navbar.php'; ?>
     
 <!-- in this page the customer will fill the form of his request to wax his car -->
  
