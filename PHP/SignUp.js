@@ -181,11 +181,11 @@ const validateInputs = () =>
     }
     else if(!isValidUname(usernameValue))
     {
-        setError(fname, 'length is between 2 and 20 only ');
+        setError(username, 'length is between 2 and 20 only ');
     }
     else if(checkUsernameExists(usernameValue))
     {
-        setError(email, 'Username is already used by another user');
+        setError(username, 'Username is already used by another user');
     }
     else
     {
