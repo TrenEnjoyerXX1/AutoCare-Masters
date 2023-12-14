@@ -49,7 +49,8 @@
                 <div class="error"></div>
             </div>
 
-            <button type="submit">Sign Up</button>
+            <input type="submit" value="Sign Up">
+           
 
         </form>
     </div>

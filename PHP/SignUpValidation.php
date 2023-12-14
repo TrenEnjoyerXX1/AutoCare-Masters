@@ -12,7 +12,7 @@ $reenteredPassword = $_POST['RePassword'];
 
 
 // Establish a database connection (replace placeholders with your actual credentials)
-$conn = new mysqli("localhost", "root", "", "autocare");
+$conn = mysqli_connect("localhost", "root", "", "autocare") or die("Couldn't connect to the database");
 
 
 
@@ -55,6 +55,10 @@ else
     echo "Singed Up successfully !";
 }
 
+}
+elseif (!isNewEmail($email,$conn)&&!isNewUname($username,$conn))
+{
+    echo "Email and Username are not available";
 }
 elseif (!isNewEmail($email,$conn))
 {
