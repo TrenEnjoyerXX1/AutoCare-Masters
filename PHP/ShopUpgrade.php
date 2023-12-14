@@ -8,9 +8,9 @@
   
 </head>
 <body>
-      <?php include 'navbar.html'; ?>    
+      <?php include 'navbar.php'; ?>
     
-<!-- in this page the shop will view the pending  requests of Tunning depending on the branch location  -->
+<!-- in this page the shop will view the pending  requests of Upgrade depending on the branch location  -->
  
 
 

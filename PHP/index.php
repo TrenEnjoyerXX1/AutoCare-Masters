@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="navbar navbar-expand-lg bg-body-tertiary">
-      <?php include 'navbar.html'; ?>
+      <?php include 'navbar.php'; ?>
     </div>
 
 

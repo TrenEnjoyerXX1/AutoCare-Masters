@@ -8,9 +8,9 @@
   
 </head>
 <body>
-      <?php include 'navbar.html'; ?>    
+      <?php include 'navbar.php'; ?>
     
-<!-- in this page the shop will view the pending  requests of Repair depending on the branch location  -->
+<!-- in this page the shop will view the pending  requests of Wax depending on the branch location  -->
  
 
 
