@@ -16,7 +16,7 @@
 
 
     <div class="container">
-        <form id="form" action="SignUpValidation.php" method="post">
+        <form id="form" action="./SignUpValidation.php" method="post">
             <h1>Registration</h1>
 
             <div class="input-control">
