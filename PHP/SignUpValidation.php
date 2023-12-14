@@ -12,7 +12,7 @@ $reenteredPassword = $_POST['RePassword'];
 
 
 // Establish a database connection (replace placeholders with your actual credentials)
-$conn = new mysqli("localhost", "username", "password", "database_name");
+$conn = new mysqli("localhost", "root", "", "autocare");
 
 
 
