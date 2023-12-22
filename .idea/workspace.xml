@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/DataBaseConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/DataBaseConfig.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
       </set>
     </attachedChunks>
   </component>
@@ -89,7 +90,10 @@
       <updated>1702558762961</updated>
       <workItem from="1702558763938" duration="251000" />
       <workItem from="1702564328444" duration="5129000" />
-      <workItem from="1702575708048" duration="17389000" />
+      <workItem from="1702575708048" duration="17405000" />
+      <workItem from="1703064296771" duration="1104000" />
+      <workItem from="1703068128191" duration="1301000" />
+      <workItem from="1703276111528" duration="2245000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <option name="closed" value="true" />
@@ -147,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702594093843</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SingUp javaScript">
+      <option name="closed" value="true" />
+      <created>1702594758634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702594758634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
