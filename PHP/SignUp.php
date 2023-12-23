@@ -1,3 +1,4 @@
+<?php require("SignUpValidation.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,22 @@
     <link rel="stylesheet" href="SignUp.css">
     <script defer src="SignUp.js"></script>
 
-  
+
+    <?php
+    if($UserName_error != null)
+    {
+        ?> <style>.username-error{display:block}</style> <?php
+    }
+    if($Email_error != null)
+    {
+        ?> <style>.email-error{display:block}</style> <?php
+    }
+    if($success != null)
+    {
+        ?> <style>.success{display:block}</style> <?php
+    }
+    ?>
+
 </head>
 <body>
     <?php include 'navbar.php'; ?>
@@ -30,13 +46,20 @@
             </div>
 
             <div class="input-control">
-                <input id="UserName" name="UserName" placeholder="Username" type="text">
+                <input id="UserName" name="UserName" value="<?php echo $UserName ?>" placeholder="Username" type="text">
                 <div class="error"></div>
+                <p class="error username-error">
+                    <?php echo $UserName_error; ?>
+                </p>
             </div>
 
             <div class="input-control">
-                <input id="Email" name="Email" placeholder="Email" type="text">
+                <input id="Email" name="Email" value="<?php echo $Email ?>" placeholder="Email" type="text">
                 <div class="error"></div>
+                <p class="error email-error">
+                    <?php echo $Email_error; ?>
+                </p>
+
             </div>
 
             <div class="input-control">
