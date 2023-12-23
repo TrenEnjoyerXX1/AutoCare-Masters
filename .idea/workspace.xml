@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="">
+    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="DataBaseConfig.php">
+      <change afterPath="$PROJECT_DIR$/PHP/AdminNavbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/DataBaseConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/DataBaseConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUpValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ShOmar's-branch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.php.executor": "Coverage",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ShOmar's-branch",
+    "last_opened_file_path": "C:/Users/Amr/PhpstormProjects/AutoCare-Masters/PHP",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql_aurora_aws&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
     ]
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +96,11 @@
       <workItem from="1703064296771" duration="1104000" />
       <workItem from="1703068128191" duration="1301000" />
       <workItem from="1703276111528" duration="4422000" />
-      <workItem from="1703318426914" duration="9800000" />
+      <workItem from="1703318426914" duration="10527000" />
+      <workItem from="1703336537805" duration="308000" />
+      <workItem from="1703341132197" duration="200000" />
+      <workItem from="1703341492211" duration="158000" />
+      <workItem from="1703341682593" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <option name="closed" value="true" />
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703283304751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DataBaseConfig.php">
+      <option name="closed" value="true" />
+      <created>1703332484035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703332484035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
