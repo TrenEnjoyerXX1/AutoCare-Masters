@@ -1,4 +1,4 @@
-<?php //require("SignUpValidation.php") ?>
+<?php require("SignUpValidation.php") ?>
 
 <!DOCTYPE html>
 <html>
@@ -47,7 +47,7 @@
             </div>
 
             <div class="input-control">
-                <input id="UserName" name="UserName" value="<?php echo $UserName ?>" placeholder="Username" type="text">
+                <input id="UserName" name="UserName" value="<?php echo $username ?>" placeholder="Username" type="text">
                 <div class="error"></div>
                 <p class="error username-error">
                     <?php echo $UserName_error; ?>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="input-control">
-                <input id="Email" name="Email" value="<?php echo $Email ?>" placeholder="Email" type="text">
+                <input id="Email" name="Email" value="<?php echo $email ?>" placeholder="Email" type="text">
                 <div class="error"></div>
                 <p class="error email-error">
                     <?php echo $Email_error; ?>
@@ -73,7 +73,7 @@
                 <div class="error"></div>
             </div>
 
-            <input type="submit" value="Sign Up">
+            <input type="submit" name="Signupbutton" value="Sign Up">
            
 
         </form>
