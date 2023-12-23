@@ -16,49 +16,56 @@ $Email_error=null;
 // Establish a database connection (replace placeholders with your actual credentials)
 $sql = mysqli_connect("localhost", "root", "", "autocare") or die("Couldn't connect to the database");
 
-$result=mysqli_query($con,$sql);
+//$result=mysqli_query($con,$sql);
 
 // Function to validate email against the database
-function isNewEmail($email, $con)
+
+
+function isNewUname($username,$con)
 {
-    $sql = "SELECT COUNT(*) AS count FROM customer WHERE Email = ?";
-    $stmt = $con->prepare($sql);
-    $stmt->bind_param("s", $email);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $row = $result->fetch_assoc();
-
-    if ($row['count'] == 0)
-    {
-
-        return $row['count'] == 0;
-    }
-    else
-    {
-        $Email_error = "Email is Used by another user";
-    }
-}
-
-function isNewUname($username , $con)
-{
-    $sql = "SELECT count(*) FROM `customer` WHERE UserName = '" . $username . "'";
-
     $sql = "SELECT count(*) FROM `customer` WHERE UserName = '" . $username . "'";
 
     $UnameQuery=mysqli_query($con,$sql);
 
     if($res= mysqli_fetch_array($UnameQuery))
     {
-        $UserName_error="";
 
-        //return $res['count(*)']==0;
-        echo $res['count(*)'];
+        if($res['count(*)']==1)
+        {
+        $UserName_error="Username is already used by another user";
+        }
+        else
+        {
+        $UserName_error=null;
+        return $res['count(*)']==0;
+        }
+    }
+
+}
+
+function isNewEmail($email, $con)
+{
+    $sql = "SELECT count(*) FROM `customer` WHERE UserName = '" . $email . "'";
+
+    $UnameQuery=mysqli_query($con,$sql);
+
+    if($res= mysqli_fetch_array($UnameQuery))
+    {
+        if($res['count(*)']==1)
+        {
+        $UserName_error="Username is already used by another user";
+        }
+        else
+        {
+        $UserName_error=null;
+        return $res['count(*)']==0;
+        }
     }
 
 }
 
 
-if(isNewEmail($email,$con)&&isNewUname($username,$con))
+if(isNewEmail($email,$con)&&isNewUname($email,$con))
 {
     $PasswordHash = hash('sha3-512',$password);
 
@@ -75,25 +82,4 @@ if(isNewEmail($email,$con)&&isNewUname($username,$con))
         }
 
 }
-
-
-$sql = "SELECT count(*) FROM `customer` WHERE UserName = '" . "Amr21" . "'";
-
-$UnameQuery=mysqli_query($con,$sql);
-
-if($res= mysqli_fetch_array($UnameQuery))
-{
-    $UserName_error="";
-
-    //return $res['count(*)']==0;
-    echo $res['count(*)'];
-}
-
-
-
-
-
-
-
-
 ?>

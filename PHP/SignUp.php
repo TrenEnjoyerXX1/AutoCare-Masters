@@ -1,4 +1,5 @@
-<?php require("SignUpValidation.php") ?>
+<?php //require("SignUpValidation.php") ?>
+
 <!DOCTYPE html>
 <html>
 <head>
