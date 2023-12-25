@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2023 at 10:24 PM
+-- Generation Time: Dec 25, 2023 at 08:25 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -35,6 +35,14 @@ CREATE TABLE `customer` (
   `Password` varchar(100) NOT NULL,
   `C_ID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `customer`
+--
+
+INSERT INTO `customer` (`F_Name`, `L_Name`, `UserName`, `Email`, `Password`, `C_ID`) VALUES
+('Amr', 'Shaaban', 'Amr21', 'amrshaaban718@gmail.com', '881c7d6ba98678bcd96e253086c4048c3ea15306d0d13ff48341c6285ee71102a47b6f16e20e4d65c0c3d677be689dfda6d3', 1),
+('', 'lname', '', '', 'a69f73cca23a9ac5c8b567dc185a756e97c982164fe25859e0d1dcc1475c80a615b2123af1f5f94c11e3e9402c3ac558f500', 3);
 
 -- --------------------------------------------------------
 
@@ -69,7 +77,6 @@ CREATE TABLE `request` (
   `R_ID` int(11) NOT NULL,
   `R_C_ID` int(11) NOT NULL,
   `R_D_No` int(11) NOT NULL,
-  `R_S_ID` int(11) NOT NULL,
   `R_V_ID` int(11) NOT NULL,
   `Service_Details` varchar(255) NOT NULL,
   `Date` varchar(20) NOT NULL,
@@ -141,7 +148,6 @@ ALTER TABLE `department_locations`
 ALTER TABLE `request`
   ADD PRIMARY KEY (`R_ID`),
   ADD KEY `fk_R_V_Id` (`R_V_ID`),
-  ADD KEY `fk_R_S_Id` (`R_S_ID`),
   ADD KEY `fk_R_C_Id` (`R_C_ID`),
   ADD KEY `fk_R_DL_Id` (`R_D_No`);
 
@@ -169,7 +175,7 @@ ALTER TABLE `vehicle`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `C_ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `C_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `department`
@@ -217,7 +223,6 @@ ALTER TABLE `department_locations`
 ALTER TABLE `request`
   ADD CONSTRAINT `fk_R_C_Id` FOREIGN KEY (`R_C_ID`) REFERENCES `customer` (`C_ID`),
   ADD CONSTRAINT `fk_R_DL_Id` FOREIGN KEY (`R_D_No`) REFERENCES `department_locations` (`L_ID`),
-  ADD CONSTRAINT `fk_R_S_Id` FOREIGN KEY (`R_S_ID`) REFERENCES `staff` (`S_ID`),
   ADD CONSTRAINT `fk_R_V_Id` FOREIGN KEY (`R_V_ID`) REFERENCES `vehicle` (`V_ID`),
   ADD CONSTRAINT `fk_Vehicle_id` FOREIGN KEY (`R_V_ID`) REFERENCES `vehicle` (`V_ID`);
 
