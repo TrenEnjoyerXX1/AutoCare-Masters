@@ -7,8 +7,8 @@ $Role=null;
 
 if(isset($_POST["signinbutton"]))
 {
-  $Username = $_POST['UserName'];
-  $password = hash('sha3-512', $_POST['password']);
+  $Username = $_POST['Username'];
+  $password = hash('sha3-512', $_POST['Password']);
 
 }
 
@@ -16,7 +16,11 @@ if (isset($_POST['StaffFlag']))
 {
     // Checkbox was checked--> Staff User
 
-    $sql= "SELECT   `Role`  FROM `staff` WHERE `UserName`=".$Username." AND `Password`=".$password ;
+    $sql= "SELECT   `Role`  FROM `staff` WHERE `UserName`= ? AND `Password`= ? ;" ;
+    $stmt->bind_param("ss",$Username,$password);
+    $stmt->execute();
+    $res=$stmt->get_result();
+
 
     $Signin=mysqli_query($con,$sql);
 
@@ -80,12 +84,16 @@ if (isset($_POST['StaffFlag']))
         }
 
     }
+    else
+    {
+      echo "else ya bro";
+    }
 }
 else
 {
     // Checkbox was not checked--> Customer
 
-        $sql= "SELECT   count(*)  FROM `customer` WHERE `UserName`=".$Username." AND `Password`=".$password ;
+        $sql= "SELECT   count(*)  FROM `customer` WHERE `UserName`=" . $Username . "  AND `Password`=" .$password . ";" ;
 
         $Signin=mysqli_query($con,$sql);
 
