@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2023 at 08:25 PM
+-- Generation Time: Dec 26, 2023 at 06:06 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -36,25 +36,6 @@ CREATE TABLE `customer` (
   `C_ID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `customer`
---
-
-INSERT INTO `customer` (`F_Name`, `L_Name`, `UserName`, `Email`, `Password`, `C_ID`) VALUES
-('Amr', 'Shaaban', 'Amr21', 'amrshaaban718@gmail.com', '881c7d6ba98678bcd96e253086c4048c3ea15306d0d13ff48341c6285ee71102a47b6f16e20e4d65c0c3d677be689dfda6d3', 1),
-('', 'lname', '', '', 'a69f73cca23a9ac5c8b567dc185a756e97c982164fe25859e0d1dcc1475c80a615b2123af1f5f94c11e3e9402c3ac558f500', 3);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `department`
---
-
-CREATE TABLE `department` (
-  `D_No` int(11) NOT NULL,
-  `D_Name` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 -- --------------------------------------------------------
 
 --
@@ -63,9 +44,25 @@ CREATE TABLE `department` (
 
 CREATE TABLE `department_locations` (
   `L_ID` int(11) NOT NULL,
-  `L_D_No` int(11) NOT NULL,
-  `Location` varchar(50) NOT NULL
+  `Location` varchar(50) NOT NULL,
+  `D_Name` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `department_locations`
+--
+
+INSERT INTO `department_locations` (`L_ID`, `Location`, `D_Name`) VALUES
+(1, 'Maadi', 'Car Wrap'),
+(2, 'Nasr City', 'Car Wrap'),
+(3, 'Maadi', 'Wash'),
+(4, 'Nasr City', 'Wash'),
+(5, 'Nasr City', 'Wax'),
+(6, 'Maadi', 'Repair'),
+(7, 'Maadi', 'Tunning'),
+(8, 'Maadi', 'Wax'),
+(9, 'Nasr City', 'Repair'),
+(10, 'Nasr City', 'Upgrade');
 
 -- --------------------------------------------------------
 
@@ -130,17 +127,10 @@ ALTER TABLE `customer`
   ADD UNIQUE KEY `UserName` (`UserName`,`Email`);
 
 --
--- Indexes for table `department`
---
-ALTER TABLE `department`
-  ADD PRIMARY KEY (`D_No`);
-
---
 -- Indexes for table `department_locations`
 --
 ALTER TABLE `department_locations`
-  ADD PRIMARY KEY (`L_ID`),
-  ADD KEY `fk_L_D_No` (`L_D_No`);
+  ADD PRIMARY KEY (`L_ID`);
 
 --
 -- Indexes for table `request`
@@ -178,16 +168,10 @@ ALTER TABLE `customer`
   MODIFY `C_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `department`
---
-ALTER TABLE `department`
-  MODIFY `D_No` int(11) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT for table `department_locations`
 --
 ALTER TABLE `department_locations`
-  MODIFY `L_ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `L_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `request`
@@ -210,12 +194,6 @@ ALTER TABLE `vehicle`
 --
 -- Constraints for dumped tables
 --
-
---
--- Constraints for table `department_locations`
---
-ALTER TABLE `department_locations`
-  ADD CONSTRAINT `fk_L_D_No` FOREIGN KEY (`L_D_No`) REFERENCES `department` (`D_No`);
 
 --
 -- Constraints for table `request`
