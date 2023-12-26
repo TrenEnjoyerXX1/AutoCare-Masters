@@ -12,79 +12,93 @@ if(isset($_POST["signinbutton"]))
 
 }
 
-
-
 if (isset($_POST['StaffFlag']))
 {
     // Checkbox was checked--> Staff User
 
-
-
-    $sql= "SELECT   `Role`  FROM `staff` WHERE `UserName`=".$Username." AND `Password`=".$password ."'";
+    $sql= "SELECT   `Role`  FROM `staff` WHERE `UserName`=".$Username." AND `Password`=".$password ;
 
     $Signin=mysqli_query($con,$sql);
 
-    if($res= mysqli_fetch_array($Signin))
+    if($Username==="admin"&&$password==="admin")
+    {//admin
+        header('Location:Admin.php');
+        exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+    }
+    else if($res= mysqli_fetch_array($Signin))
     {
-        if($res['Role'])
+        if($res['Role'])// byshof eh ele fe result ele rag3a mn query
         {
           $Role=$res['Role'];
 
-              if($Role=="admin")
-              {//admin
-                header('Location: ' . 'Admin.php');
-              }
-              else if($Role=="wash")
+              if($Role==="wash")
               {//wash
 
+                  header('Location:ShopWash.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
 
               }
-              else if($Role=="repair")
+              else if($Role==="repair")
               {//repair
-                
+                  header('Location:ShopRepair.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+
               }
-              else if($Role=="wax")
+              else if($Role==="wax")
               {//wax
-                
+                  header('Location:ShopWax.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+
               }
-              else if($Role=="wrap")
+              else if($Role==="wrap")
               {//wrap
-                
+                  header('Location:ShopCarWrap.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+
               }
-              else if($Role=="tunning")
-              {//tunning
-                
+              else if($Role==="tuning")
+              {//tuning
+
+                  header('Location:ShopTuning.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+
+
               }
-              else if($Role=="upgrade")
+              else if($Role==="upgrade")
               {//upgrade
-                
+                  header('Location:ShopUpgrade.php');
+                  exit;// (Add-on) to prevent accessing the rest of this page after redirecting
+
               }
 
         }
         else
-        {//user isn't in the Database
+        {//user isn't in the Database or not a staff member
+
 
 
         }
 
     }
-
-
-//Roles are Admin,wash,repair,wax,wrap,tunning and upgrade
-
-
-
-
-
-
-
-
 }
 else
 {
     // Checkbox was not checked--> Customer
 
+        $sql= "SELECT   count(*)  FROM `customer` WHERE `UserName`=".$Username." AND `Password`=".$password ;
 
+        $Signin=mysqli_query($con,$sql);
+
+         if($res= mysqli_fetch_array($Signin))
+        {
+            if($res['count(*)']===1)// byshof eh ele fe result ele rag3a mn query
+            {
+                //
+                echo "signed in successfully";
+
+                //set session values
+            }
+        }
 
 
 

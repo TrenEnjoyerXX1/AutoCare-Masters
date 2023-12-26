@@ -27,8 +27,6 @@ $success=null;
 }
 
 
-
-
 $sql = mysqli_connect("localhost", "root", "", "autocare") or die("Couldn't connect to the database");
 
 
@@ -45,7 +43,7 @@ function isNewUname($username,$con)
     if($res= mysqli_fetch_array($UnameQuery))
     {
 
-        if($res['count(*)']==1)
+        if($res['count(*)']===1)
         {
         $UserName_error="Username is already used by another user";
         
@@ -54,7 +52,7 @@ function isNewUname($username,$con)
         {
         $UserName_error=null;
         }
-        return $res['count(*)']==0;
+        return $res['count(*)']===0;
     }
 
 }
@@ -67,7 +65,7 @@ function isNewEmail($email, $con)
 
     if($res= mysqli_fetch_array($UnameQuery))
     {
-        if($res['count(*)']==1)
+        if($res['count(*)']===1)
         {
         $UserName_error="Email is already used by another user";
         }
