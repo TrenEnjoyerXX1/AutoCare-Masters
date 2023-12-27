@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2023 at 06:06 PM
+-- Generation Time: Dec 27, 2023 at 05:25 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -32,7 +32,7 @@ CREATE TABLE `customer` (
   `L_Name` varchar(15) NOT NULL,
   `UserName` varchar(20) NOT NULL,
   `Email` varchar(50) NOT NULL,
-  `Password` varchar(100) NOT NULL,
+  `Password` varchar(256) NOT NULL,
   `C_ID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -59,7 +59,7 @@ INSERT INTO `department_locations` (`L_ID`, `Location`, `D_Name`) VALUES
 (4, 'Nasr City', 'Wash'),
 (5, 'Nasr City', 'Wax'),
 (6, 'Maadi', 'Repair'),
-(7, 'Maadi', 'Tunning'),
+(7, 'Maadi', 'Tuning'),
 (8, 'Maadi', 'Wax'),
 (9, 'Nasr City', 'Repair'),
 (10, 'Nasr City', 'Upgrade');
@@ -92,7 +92,7 @@ CREATE TABLE `staff` (
   `L_Name` varchar(15) NOT NULL,
   `UserName` varchar(20) NOT NULL,
   `Email` varchar(50) NOT NULL,
-  `Password` varchar(100) NOT NULL,
+  `Password` varchar(256) NOT NULL,
   `Role` varchar(15) NOT NULL,
   `S_ID` int(11) NOT NULL,
   `S_D_No` int(11) NOT NULL

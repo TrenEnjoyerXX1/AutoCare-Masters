@@ -70,6 +70,7 @@ function DeleteByID($id)
 {
   
     echo 'Error '.mysqli_error($con);
+    $con->
 }   
 else
 {
