@@ -13,7 +13,7 @@
 
 <p >Manage Customers </p>
 
-<table class="table table-dark table-hover" >
+<table class="table table-dark table-hover " style="margin: 0px 5%; width: 90%;" >
   <tr>
     <th>ID</th> <th>First Name  </th> <th>Last Name</th> <th>Username</th> <th>Email</th>  <th>Manage</th>
   </tr>
@@ -70,7 +70,7 @@ function DeleteByID($id)
 {
   
     echo 'Error '.mysqli_error($con);
-    $con->
+    
 }   
 else
 {
