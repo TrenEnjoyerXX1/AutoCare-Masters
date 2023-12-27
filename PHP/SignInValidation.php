@@ -11,12 +11,13 @@ if(isset($_POST["signinbutton"]))
 {
   $Username = $_POST['Username'];
   $password = hash('sha3-512', $_POST['Password']);
+  session_start();
 
 }
 
 if (isset($_POST['StaffFlag']))
 {
-    session_start();
+    
         // Checkbox was checked--> Staff User
 
         if($Username==="admin" && $password===hash('sha3-512', "admin"))

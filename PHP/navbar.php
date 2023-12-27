@@ -30,7 +30,7 @@
               <li><a class="dropdown-item" href="CustomerCarWrap.php">Car Wrap</a></li>
               <li><a class="dropdown-item" href="CustomerWax.php">Wax</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="CustomerTunning.php">Tunning</a></li>
+              <li><a class="dropdown-item" href="CustomerTuning.php">Tuning</a></li>
               <li><a class="dropdown-item" href="CustomerUpgrade.php">Upgrade</a></li>
               </ul>
              
@@ -46,15 +46,41 @@
           </li>
 
 
+<?php
 
-           <li class="nav-item" >
-            <!-- scroll down -->
-            <a class="nav-link" href="SignIn.php"  >Login</a>
-         </li>
+session_start(); 
+if(isset($_SESSION['username'])) 
+{?>
 
-            <li class="nav-item" >
-                <a class="nav-link" href="SignUp.php"  >Register</a>
-            </li>
+
+<li class="nav-item">                    
+  <p class="nav-link" ><?php echo "Welcome " . $_SESSION['name']; ?></p>
+</li>
+        
+        <li class="nav-item " >
+        <!-- onclick destroy the session  -->
+        <a class="nav-link" href="logout.php" type="button"  >Log out</a>
+        </li>
+
+
+
+<?php
+
+}
+else
+{?>
+
+<li class="nav-item" >
+        <a class="nav-link" href="SignIn.php"  >Login</a>
+</li>
+
+        <li class="nav-item" >
+            <a class="nav-link" href="SignUp.php"  >Register</a>
+        </li>
+
+
+<?php } ?>
+
 
         </ul>
 

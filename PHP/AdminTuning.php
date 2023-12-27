@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AutoCare Masters | Add Wax Staff</title>
+    <title>AutoCare Masters | Add Tuning Staff</title>
 
 
 </head>
@@ -10,7 +10,7 @@
 <?php include 'adminNavbar.php'; ?>
 <div class="container">
         <form id="form" action="./AdminAddStaffValidation.php" method="post">
-            <h1>Wax Staff</h1>
+            <h1>Tuning Staff</h1>
 
             <div class="input-control">
                 <input id="F_Name" name="F_Name" placeholder="First Name" type="text">
@@ -49,10 +49,10 @@
 
             <table>
                 <tr>
-                    <td>Location</td><td>              <select name="location" id="location">
+                    <td>Location</td><td> <select name="location" id="location">
                 <?php
                   include("DataBaseConfig.php");
-                  $query = "select `L_ID`,`Location` from department_locations where D_Name='Wax' ";
+                  $query = "select `L_ID`,`Location` from department_locations where D_Name='Tuning' ";
                   $result = $con->query($query);
 
                 

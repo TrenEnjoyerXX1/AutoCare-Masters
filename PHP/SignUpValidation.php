@@ -86,7 +86,6 @@ if(isNewEmail($email,$con)&&isNewUname($email,$con))
 
     $insert="INSERT INTO `customer`(`F_Name`, `L_Name`, `UserName`, `Email`, `Password`) VALUES ('$fname','$lname','$username','$email','$PasswordHash')";
 
-
         if(!mysqli_query($con,$insert))
         {
             echo 'Error '.mysqli_error($con);
