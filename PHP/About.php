@@ -39,10 +39,27 @@
 				<div class="col-lg-5 about-right-faq pr-5">
 					<h6>Story About Us</h6>
 					<h3 class="mt-2 mb-3">Welcome to our Website</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta erat sit.</p>
-					<p class="mt-2">Suspendisse porta erat sit amet eros sagittis, quis hendrerit libero aliquam. Fusce semper augue
-						ac dolor
-						efficitur.</p>
+					<p>Welcome to Auto Care Masters, where passion meets precision in automotive care. At Auto Care Masters, we're dedicated to elevating your driving experience through our exceptional tuning and car wash services.
+
+Our journey began with a fervent love for automobiles and a commitment to enhancing their performance and aesthetics. With years of expertise under our belt, we've honed our skills and refined our techniques to deliver top-notch services that exceed expectations.
+
+What sets us apart is our unwavering dedication to quality. Whether it's fine-tuning your vehicle's performance for optimal power and efficiency or meticulously hand-washing and detailing every inch, we take pride in our craftsmanship. Our team comprises skilled technicians and car enthusiasts who share a passion for perfection, ensuring that your car receives the utmost care and attention it deserves.
+
+At Auto Care Masters, customer satisfaction is our priority. We understand that your car is more than just a mode of transportation; it's an extension of your personality and style. That's why we tailor our services to meet your specific needs, offering personalized solutions that cater to both your car's requirements and your preferences.
+
+From performance tuning that unlocks your vehicle's full potential to our comprehensive car wash packages that restore its shine, we're here to elevate your driving experience. We use premium products, advanced technologies, and proven methodologies to deliver results that speak for themselves.
+
+Beyond our services, we strive to create a welcoming and accommodating environment for our customers. Your trust in us is invaluable, and we aim to build lasting relationships by providing transparent communication, reliability, and exceptional service at every step.
+
+Join us at Auto Care Masters and experience the difference firsthand. Whether you're seeking performance enhancements, meticulous detailing, or both, our team is here to turn your automotive dreams into reality.
+
+Thank you for considering Auto Care Masters for all your tuning and car wash needs. We look forward to exceeding your expectations and becoming your trusted partner in automotive care.
+
+Sincerely,
+
+Auto Care Masters Team
+
+</p>
 					<a href="about.html" class="btn button-style mt-sm-5 mt-4">Read More</a>
 				</div>
 				<div class="col-lg-7 welcome-right text-center mt-lg-0 mt-5">
@@ -64,8 +81,7 @@
 								<span class="fa fa-handshake-o"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+					
 							</div>
 						</div>
 					</div>
@@ -75,8 +91,7 @@
 								<span class="fa fa-coffee"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -88,8 +103,7 @@
 								<span class="fa fa-headphones"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -99,8 +113,7 @@
 								<span class="fa fa fa-eye"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+
 							</div>
 						</div>
 					</div>
@@ -112,8 +125,7 @@
 								<span class="fa fa-folder-open"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -123,8 +135,7 @@
 								<span class="fa fa-lightbulb-o"></span>
 							</div>
 							<div class="col-md-9 col-10 text-left services-grid">
-								<h4>Title Here</h4>
-								<p>Natus error sit voluptatem accusantium dolo remque lauda ntium.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -143,10 +154,7 @@
 				</div>
 				<div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
 					<div class="bott-w3ls mr-xl-5">
-						<h3 class="title-w3 text-bl mb-3 font-weight-bold">Some of Company Real Facts</h3>
-						<p class="title-sub-2 mb-3">Excepteur sint occaecat cupidatat <br>non proident.</p>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium. </p>
+						
 					</div>
 					<div class="row mt-5">
 						<div class="col-sm-4 count-w3ls">
@@ -193,18 +201,7 @@
 					<div class="ab-content-inner">
 						<img src="images/t1.jpg" alt="news image" class="img-fluid">
 						<div class="ab-info-con">
-							<h4 class="text-team-w3">Petey Cruiser</h4>
-							<ul class="list-unstyled team-socil-w3pvts">
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-twitter"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-google-plus"></span></a>
-								</li>
-							</ul>
+							
 						</div>
 					</div>
 				</div>
@@ -212,18 +209,7 @@
 					<div class="ab-content-inner">
 						<img src="images/t2.jpg" alt="news image" class="img-fluid">
 						<div class="ab-info-con">
-							<h4 class="text-team-w3">Mario Spe</h4>
-							<ul class="list-unstyled team-socil-w3pvts">
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-twitter"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-google-plus"></span></a>
-								</li>
-							</ul>
+							
 						</div>
 					</div>
 				</div>
@@ -231,18 +217,8 @@
 					<div class="ab-content-inner">
 						<img src="images/t3.jpg" alt="news image" class="img-fluid">
 						<div class="ab-info-con">
-							<h4 class="text-team-w3">Turn Paige</h4>
-							<ul class="list-unstyled team-socil-w3pvts">
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-twitter"></span></a>
-								</li>
-								<li class="d-inline">
-									<a href="#"><span class="fa fa-google-plus"></span></a>
-								</li>
-							</ul>
+							
+
 						</div>
 					</div>
 				</div>
