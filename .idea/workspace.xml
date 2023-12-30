@@ -4,102 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="DataBaseConfig.php">
-      <change afterPath="$PROJECT_DIR$/PHP/AdminAddStaffValidation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminCustomers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminDeleteCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminDeleteStaff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminManageStaff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminStaffAddedSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/AdminTuning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/CustomerCancelRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/CustomerRequestSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/CustomerRequestValidation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/CustomerTuning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/Logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopNavbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopTuning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateCarWrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateRepair.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateTuning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateUpgrade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateWash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/ShopUpdateWax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/SignupSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/VideoWax.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/customerRequests.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/repair.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/supercar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/supercar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/tuning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/upgrade.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/wash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/wax.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/wrap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/CSS/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (10).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (11).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (12).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (13).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (14).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (15).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (16).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (17).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (18).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (19).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (20).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (21).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (22).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (23).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (24).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (25).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (26).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (6).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (7).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (8).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/car/pic (9).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pablo Picasso/CSS/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/Contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/FemalePfp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/IconsSource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/Logos/logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Pablo Picasso/Icons/Logos/logo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/MalePfp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/Repair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminNavbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminNavbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminRepair.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminRepair.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminUpgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminUpgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminWash.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminWash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminWax.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminWax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/AdminWrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/AdminWrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/CustomerCarWrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CustomerCarWrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/CustomerRepair.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CustomerRepair.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/CustomerUpgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CustomerUpgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/CustomerWash.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CustomerWash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/CustomerWax.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CustomerWax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/DataBaseConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/DataBaseConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/ShopCarWrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ShopCarWrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/ShopRepair.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ShopRepair.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/ShopUpgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ShopUpgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/ShopWash.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ShopWash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/ShopWax.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/ShopWax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignInValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignInValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SignUpValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/SignUpValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/tempFile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/Autocare.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/autocare.sql" afterDir="false" />
+    <list default="true" id="da7d1542-a6f4-47fb-b021-ce205efcb2f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/PHP/AdminReports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/AdminStatistics.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/AdminTunning.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/CustomerTunning.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703332484035</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Latest Version">
+      <option name="closed" value="true" />
+      <created>1703937227581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703937227581</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +238,8 @@
     <MESSAGE value="s" />
     <MESSAGE value="SingUp javaScript" />
     <MESSAGE value="DataBaseConfig.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataBaseConfig.php" />
+    <MESSAGE value="Latest Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Latest Version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

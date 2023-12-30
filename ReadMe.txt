@@ -4,7 +4,7 @@ please after finshing your task in your branch merge it with the pre-final branc
 
 
 
-3 types of users (Admin, Service provider, Customer)
+3 Actors (Admin, Service provider, Customer)
 
 Service providers departments ->(Mechanic,coating agent, tunning agent . . . etc)
 
@@ -13,7 +13,7 @@ Service providers roles -> manage(requests from the users 3la 7asab department e
 
 
 
-Admin roles -> manage(add,delete,edit) service providers
-               manage(add,delete,edit) Customers
+Admin roles -> manage(add,delete) service providers
+               manage(add,delete) Customers
 
 
