@@ -21,20 +21,26 @@
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Company</h5>
+            <h5 class="text-uppercase">Service Details</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="CustomerWash.php" class="text-white">Car Wash</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="CustomerRepair.php" class="text-white">Car Repair</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="CustomerCarWrap.php" class="text-white">Car Wrap</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="CustomerWax.php" class="text-white">Car Wax</a>
+              </li>
+              <li>
+                <a href="CustomerTuning.php" class="text-white">Car Tuning</a>
+              </li>
+              <li>
+                <a href="CustomerUpgrade.php" class="text-white">Car Upgrade</a>
               </li>
             </ul>
           </div>
@@ -45,14 +51,17 @@
             <h5 class="text-uppercase">Get Help</h5>
 
             <ul class="list-unstyled mb-0">
+              <b>Mail us: </b>
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">autocaremasters@gmail.com</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+              <b>Chat with us: </b>
+                <a href="#!" class="text-white">Chat Here:</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+              <b>Visit us: </b>
+                <a href="https://maps.app.goo.gl/pjKpVW5mcpVrXhp29" class="text-white">Kornish Al Nile, Maadi Al Khabiri Ash Sharqeyah, Maadi, Cairo Governorate</a>
               </li>
               <li>
                 <a href="#!" class="text-white">Link 4</a>
@@ -63,21 +72,16 @@
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Other</h5>
+            <h5 class="text-uppercase">Opening Hours</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Report</a>
+                <b>Friday-Saturday : 1:00 PM ~ 11:00 PM</b>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+              <b>Sunday-Thursday : 10:00 PM ~ 11:00 PM</b>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+              
             </ul>
           </div>
           <!--Grid column-->

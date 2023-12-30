@@ -4,7 +4,6 @@ $Username='root';
 $Password='';
 $DB='AutoCare';
 
-$con = mysqli_connect($Host,$Username,$Password,$DB) ;
-
+$con = mysqli_connect($Host, $Username, $Password, $DB);
 
 ?>

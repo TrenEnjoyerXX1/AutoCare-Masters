@@ -7,18 +7,24 @@
   
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">AutoCare Masters</a>
+        <a class="navbar-brand" >AutoCare Masters</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link active" aria-current="page" href="Admin.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Customers</a>
+              <a class="nav-link" href="AdminCustomers.php">Customers</a>
             </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link" href="AdminManageStaff.php">Staff</a>
+              </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Departments
@@ -30,26 +36,26 @@
                 <li><a class="dropdown-item" href="AdminWrap.php">Car Wrap</a></li>
                 <li><a class="dropdown-item" href="AdminWax.php">Wax</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="AdminTunning.php">Tunning</a></li>
+                <li><a class="dropdown-item" href="AdminTuning.php">Tuning</a></li>
                 <li><a class="dropdown-item" href="AdminUpgrade.php">Upgrade</a></li>
                 </ul>
                
             </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="AdminStatistics.php">Statistics</a>
-            </li>
-  
+
+
+      
             <li class="nav-item">
                             
-              <a class="nav-link" href="AdminReports.php">Reports</a>
-            </li>
+                  <p class="nav-link" ><?php session_start();  echo "Welcome " . $_SESSION['name']; ?></p>
+              </li>
   
              <li class="nav-item" >
               <!-- onclick destroy the session  -->
-              <a class="nav-link" href="index.php" type="button"  >Log out</a>
+              <a class="nav-link" href="Logout.php" type="button"  >Log out</a>
            </li>
-          </ul>
+           
+        </ul>
+
   
           </form>
         </div>

@@ -7,7 +7,7 @@
 
   
 </head>
-<body>
+<body style="display: grid; align-items: center; justify-content: center; background: linear-gradient(to bottom,black,#900605);  background-repeat: no-repeat; color: white;">
 
   <?php include 'navbar.php'; ?>
 
@@ -43,7 +43,7 @@
 					<p class="mt-2">Suspendisse porta erat sit amet eros sagittis, quis hendrerit libero aliquam. Fusce semper augue
 						ac dolor
 						efficitur.</p>
-					<a href="about.html" class="btn button-style mt-sm-5 mt-4">Read More</a>
+					<a href="about.html" class="btn button-style mt-sm-5 mt-4" style="color:white;">Read More</a>
 				</div>
 				<div class="col-lg-7 welcome-right text-center mt-lg-0 mt-5">
 					<img src="images/about.png" alt="" class="img-fluid" />

@@ -7,7 +7,7 @@
 <?php include 'navbar.php'; ?>
         
 
-<!-- pics -->
+<!-- picssssssss -->
 
 
 <?php include 'footer.php'; ?>
