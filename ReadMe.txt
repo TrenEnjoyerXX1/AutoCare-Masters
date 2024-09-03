@@ -1,5 +1,3 @@
-please after finshing your task in your branch merge it with the pre-final branch not the main!!
-
 
 
 
